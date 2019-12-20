@@ -1,0 +1,24 @@
+Push:	Send changes to the master branch of your remote repository:	
+git push origin master
+Commit:	Commit changes to head (but not yet to the remote repository):	
+git commit -m "Commit message"
+Commit any files you've added with git add, and also commit any files you've changed since then
+
+Branches:	Create a new branch and switch to it:	
+git checkout -b <branchname>
+Switch from one branch to another:	
+git checkout <branchname>
+List all the branches in your repo, and also tell you what branch you're currently in:	
+git branch
+Delete the feature branch:	
+git branch -d <branchname>
+Push the branch to your remote repository, so others can use it:	
+git push origin <branchname>
+Push all branches to your remote repository:	
+git push --all origin
+Delete a branch on your remote repository:	
+g
+git clone: it is used to copy a repository. If the repository lies on a remote server, use:
+git clone username@host:/path/to/repository
+git pull merges all the changes present in the remote repository to the local working directory.
+git pull
